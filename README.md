@@ -1,6 +1,6 @@
 # Transcriptome Correlation and Off-Target Analysis in Perturb-seq
 
-## Description (50-100 words)
+## Description
 
 
 ## Example Published Figure: S2, Replogle et al. 2022
