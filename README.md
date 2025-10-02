@@ -9,7 +9,9 @@
 
 ## Dataset IDs:
 FASTQ and BAM:
+
 Raw Data: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA831566
+
 Metadata: https://plus.figshare.com/articles/dataset/_Mapping_information-rich_genotype-phenotype_landscapes_with_genome-scale_Perturb-seq_Replogle_et_al_2022_SRA_and_GEO_file_manifest/20022944 
 
 ## Software:
