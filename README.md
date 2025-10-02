@@ -21,6 +21,7 @@ Database for stretch goal: https://thebiogrid.org/
     - PerturbSeq Library: https://github.com/thomasmaxwellnorman/Perturbseq_GI/tree/master
 - R 4.5.0
     - write PerturbSeq library in R
+- CellRanger 4.0.0 : https://www.10xgenomics.com/support
 
 ## Goals:
 
