@@ -1,7 +1,7 @@
 # Transcriptome Correlation and Off-Target Analysis in Perturb-seq
 
 ## Description
-    Repogle et al. perform a genome-wide CRISPRi screen (Perturb-seq) to characterize the transcriptional phenotypes of all genes to predict gene function and characterize cellular functions. We aim to replicate the author's pipeline, coded in python, that they used to generate their data in R. In addition, we want to characterize off-target knockdown, using genes with bidirectional promoters as a positive control, and see how distance between genes correlate with offtarget knockdown. Finally, we hope to use the pipeline in other CRISPRi datasets, such as an astrocyte CRISPRi screen from Leng 2022, and identify unannotated genes involved in astrocyte function.
+Repogle et al. perform a genome-wide CRISPRi screen (Perturb-seq) to characterize the transcriptional phenotypes of all genes to predict gene function and characterize cellular functions. We aim to replicate the author's pipeline, coded in python, that they used to generate their data in R. In addition, we want to characterize off-target knockdown, using genes with bidirectional promoters as a positive control, and see how distance between genes correlate with offtarget knockdown. Finally, we hope to use the pipeline in other CRISPRi datasets, such as an astrocyte CRISPRi screen from Leng 2022, and identify unannotated genes involved in astrocyte function.
 
 ## Example Published Figure: S2, Replogle et al. 2022
 
@@ -29,7 +29,7 @@ Database for stretch goal: https://thebiogrid.org/
 
 1. Recreate data-containing figures/panels from Replogle et al. 2022 (15 figures: 7 main text, 8 supplemental) using R
     - Code from paper is developed in python
-2. Transcriptome mapping: correlate distance between genes and determine off target KD potential of paired genes
+2. Correlate distance between genes and determine off target KD potential of paired genes
     - Start with bidirectional promoters and look for off-target KD
     - See if KD genes have correlated transcriptome readouts
     - Assign function to unannotated genes
@@ -37,4 +37,6 @@ Database for stretch goal: https://thebiogrid.org/
     - Potentially follow-up with transcriptome mapping
 
 ## References:
+Leng, Kun, Indigo V. L. Rose, Hyosung Kim, et al. 2022. “CRISPRi Screens in Human iPSC-Derived Astrocytes Elucidate Regulators of Distinct Inflammatory Reactive States.” Nature Neuroscience 25 (11): 1528–42. https://doi.org/10.1038/s41593-022-01180-9.
+
 Replogle, Joseph M., Reuben A. Saunders, Angela N. Pogson, et al. 2022. “Mapping Information-Rich Genotype-Phenotype Landscapes with Genome-Scale Perturb-Seq.” Cell 185 (14): 2559-2575.e28. https://doi.org/10.1016/j.cell.2022.05.013.
