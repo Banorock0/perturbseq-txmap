@@ -19,8 +19,10 @@ Database for stretch goal: https://thebiogrid.org/
 ## Software:
 - Python 2.7
     - PerturbSeq Library: https://github.com/thomasmaxwellnorman/Perturbseq_GI/tree/master
-- R 4.5.0
+- R 4.2.2
     - write PerturbSeq library in R
+    - adapt TAPseq 1.21.0 (Bioconductor): https://www.bioconductor.org/packages/devel/bioc/html/TAPseq.html
+    - Mixscale for PerturbSeq analysis: directions https://satijalab.github.io/Mixscale/
 - CellRanger 4.0.0 : https://www.10xgenomics.com/support
 
 ## Goals:
@@ -28,7 +30,7 @@ Database for stretch goal: https://thebiogrid.org/
 1. Recreate data-containing figures/panels from Replogle et al. 2022 (15 figures: 7 main text, 8 supplemental) using R
     - Code from paper is developed in python
 2. Transcriptome mapping: correlate distance between genes and determine off target KD potential of paired genes
-    - Start with bidirectional reporters and look for off-target KD
+    - Start with bidirectional promoters and look for off-target KD
     - See if KD genes have correlated transcriptome readouts
     - Assign function to unannotated genes
 3. (Stretch) Use raw data from CRISPR/CRISPRi screens and pipeline generated for figure recreation to map genotype-phenotype landscapes in astrocytes with PerturbSeq
