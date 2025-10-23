@@ -1,0 +1,24 @@
+Package: perturbseqR
+Type: Package
+Title: Tools for Loading and Manipulating Single-Cell Experiments
+Version: 0.1
+Authors@R: 
+    c(
+      person("Thomas", "Norman", role = c("aut")),
+      person("Jander", "Kugelman", email = "jkugelm2@jh.edu", role = c("cre"))
+    )
+Description: An R reimplementation of the Perturbseq library for analysis of single-cell 
+    experiments. Includes utilities for normalization, dimensionality reduction, 
+    differential expression, and visualization of single-cell data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.2)
+Imports: stats, utils, graphics, grDevices
+Suggests: testthat (>= 3.0.0), ggplot2, Seurat, Matrix, dplyr, magrittr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Author: Thomas Norman [aut],
+  Jander Kugelman [cre]
+Maintainer: Jander Kugelman <jkugelm2@jh.edu>
+Built: R 4.4.2; ; 2025-10-23 19:00:05 UTC; windows
