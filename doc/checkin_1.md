@@ -9,6 +9,7 @@
         - KD8_seq2_p1_sgRNA_0_S1_L004,SRR19330971 
     - To recreate the processing of aligned files to cell-gene read count matrices, we will use the follow BAM file:
         - KD8_p1_0_possorted_genome_bam.bam.1
+        - we will use 10x's bamtofastq to recreate the raw fastq files for cell ranger alignment and filtering
 - TAPseq: 
     - TAPseq will allow us access off target effects to identify strongly knocked down genes based on the identity of the gRNA. The functionality we plan to implement is to write code that looks at the knocked down genes, and flag any genes that are within 2 kb of the gRNA targeting site, and use these as candidate off-target genes.
 - Goals: 
