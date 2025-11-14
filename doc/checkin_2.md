@@ -31,7 +31,8 @@ Dan Le:
 Jander Kugelman: - Wrote transformers.R without tsne implementation -
 About halfway through cell_population.R rewrite. This will likely be the
 most problematic package to rewrite and test because of how long it is.
-\## Project Organization - figures we are attempting to recreate have
+
+## Project Organization - figures we are attempting to recreate have
 been moved to /images - progress on perturbseq package is in
 /src/perturbseqR/R
 
