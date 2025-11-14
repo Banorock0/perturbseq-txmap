@@ -32,9 +32,10 @@ Jander Kugelman: - Wrote transformers.R without tsne implementation -
 About halfway through cell_population.R rewrite. This will likely be the
 most problematic package to rewrite and test because of how long it is.
 
-## Project Organization - figures we are attempting to recreate have
-been moved to /images - progress on perturbseq package is in
-/src/perturbseqR/R
+## Project Organization 
+- figures we are attempting to recreate have
+been moved to /images 
+- progress on perturbseq package is in/src/perturbseqR/R
 
 -   Cell Ranger output is stored in /processed/cell_ranger_output/20251107/
 -   Scripts to recreate raw processing of data is stored in /src/subset_reanalysis
