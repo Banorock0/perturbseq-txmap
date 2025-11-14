@@ -19,7 +19,9 @@ editor_options:
     will write the perturbseq_demo Python notebook into an R notebook
     and test to see if the demo can be recreated)
 
--   \## Progress Dan Le:
+## Progress 
+
+Dan Le:
 
 - To recreate the processing of raw sequecing data on a subset of data, we obtained raw FASTQ files using bamtofastq (<https://github.com/10XGenomics/bamtofastq>). With this, we managed to convert the bam file associated with library KD8_p1_0 (K562 8 Day Genome Wide Peturb-seq screen) to the original fastq files, generating all the raw sequencing reads for gene transcripts as well as the captured guide RNAs for approximately 15,000 cells. Uploading this to 10x's cloud CellRanger, we managed to align to the hg38 as done in Replogle et al. 2022, retrieving gene expression data from almost 15000 unique cells. A summary of a pilot alignment is stored in /processed/cell_ranger_output/20251107/. Unfortunately, the authors did not provide a Cell Ranger compatible Feature Reference CSV for CRISPR guide capture, which provides the CRISPR sgRNA sequences used to assign the perturbed gene to each cell based on the reads from the CRISPR guide capture library. I have obtained the protospacer sequences for the dual-sgRNA vectors, and plan to access their molecular cloning strategy to generate their vectors in order to obtain the sgRNA sequence for each of the genes targeted sufficient for Cell Ranger to assign perturbed genes to cells. Then, I will redo the Cell Ranger analysis using 10x's CIRSPR guide capture pipeline to assign perturbed genes to each cell.
 
@@ -37,7 +39,8 @@ been moved to /images - progress on perturbseq package is in
 -   Scripts to recreate raw processing of data is stored in /src/subset_reanalysis
 -   Scripts to recreate processing of normalized and filter single-cell dataset will be stored in /src/mtx_subset_analysis
 
- \## Struggles/Questions Jander: - I am still in the
+## Struggles/Questions 
+Jander: - I am still in the
 process of rewriting the last script
 (src/perturbseqR/R/cell_population.R). The only struggle I have right
 now with it is that it is about 1000 lines of code, so it is taking me
