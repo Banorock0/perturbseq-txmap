@@ -1,5 +1,8 @@
 # Transcriptome Correlation and Off-Target Analysis in Perturb-seq
 
+## Slide Deck Link
+https://docs.google.com/presentation/d/1TnTIhrN0Au7cSuHHlFajkUvgd7DGEKlTrnprfuaSqYA/edit?slide=id.p#slide=id.p
+
 ## Description
 Repogle et al. perform a genome-wide CRISPRi screen (Perturb-seq) to characterize the transcriptional phenotypes of all genes to predict gene function and characterize cellular functions. We aim to replicate the author's pipeline, coded in python, that they used to generate their data in R. In addition, we want to characterize off-target knockdown, using genes with bidirectional promoters as a positive control, and see how distance between genes correlate with offtarget knockdown. Finally, we hope to use the pipeline in other CRISPRi datasets, such as an astrocyte CRISPRi screen from Leng 2022, and identify unannotated genes involved in astrocyte function.
 
